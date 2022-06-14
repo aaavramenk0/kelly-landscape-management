@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, a, p, div, header, img, section
+{
+    margin: 0;
+}
+
+:root
+{
+    --heading-font: 'Times New Roman', Times, serif;
+    --text-font: 'Montserrat', sans-serif;
+}
+
+.offer
+{
+    display: flex;
+    align-items: center;
+}
+
+.logo
+{
+    margin-left: 88px;
+    margin-top: 5px;  
+}
+
+.nav-bar
+{
+    margin-left: 66px;
+    display: flex;
+    font-family: var(--heading-font);
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.nav-bar-item
+{
+    width: 225px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-bar .active:hover
+{
+    font-size: 42px;
+    color: #FF0000;
+    text-decoration-line: underline;
+    
+}
+
+.estimate-btn
+{
+    background-color: #FF0000;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: var(--text-font);
+    font-weight: bold;
+    width: 225px;
+    padding: .25em;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+
