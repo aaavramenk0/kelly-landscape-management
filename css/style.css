@@ -5,6 +5,7 @@ body, h1, h2, h3, h4, h5, h6, a, p, div, header, img, section
     margin: 0;
 }
 
+/* Initializing the variables used in the website */
 :root
 {
     --heading-font: 'Times New Roman', Times, serif;
@@ -42,13 +43,17 @@ body, h1, h2, h3, h4, h5, h6, a, p, div, header, img, section
 
 .nav-bar .active:hover
 {
+    
     font-size: 42px;
     color: #FF0000;
     text-decoration-line: underline;
     
 }
 
-.estimate-btn
+/* 
+    Button style
+*/
+.btn
 {
     background-color: #FF0000;
     border-radius: 50px;
