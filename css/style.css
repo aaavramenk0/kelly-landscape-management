@@ -11,9 +11,17 @@ body, h1, h2, h3, h4, h5, h6, a, p, div, header, img, section
     --times-new-roman-font: 'Times New Roman', Times, serif;
     --montserrat-font: 'Montserrat', sans-serif;
 }
-
 header{
-    background-image: url(/img/bg_video.svg);
+    height: 595px;
+    
+}
+.background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
 }
 
 .offer
@@ -47,6 +55,7 @@ header{
     align-items: center;
     text-align: center;
     cursor: pointer;
+    font-variant: small-caps;
 }
 
 .nav-bar-item:hover
@@ -59,7 +68,7 @@ header{
 }
 
 /* 
-    Button style
+    Button style ⬇
 */
 .btn
 {
@@ -74,6 +83,9 @@ header{
     text-align: center;
     font-size: 24px;
 }
+/*
+    Button style ⬆
+*/
 
 .main-screen{
     padding-top: 100px;
@@ -85,6 +97,7 @@ header{
     font-family: var(--montserrat-font);
     font-size: 50px;
     text-align: center;
+    font-weight: normal;
 }
 .kelly{
     text-transform: uppercase;
@@ -101,9 +114,22 @@ header{
     font-size: 36px;
 }
 .main-screen-subtext{
-    
+    font-weight: normal;
     font-family: var(--montserrat-font);
     margin-top: 0.4em;
     text-align: center;
     font-size: 20px;
+}
+.testimonials{
+    background: #fff;
+    height: 500px;
+    padding-top: 35px;
+}
+.testimonials-heading{
+    font-family: var(--times-new-roman-font);
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 50px;
+
 }
