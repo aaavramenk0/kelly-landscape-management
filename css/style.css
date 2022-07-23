@@ -16,6 +16,7 @@ header{
 }
 .background-video {
     position: fixed;
+    overflow: hidden;
     right: 0;
     bottom: 0;
     min-width: 100%;
@@ -150,6 +151,9 @@ header{
     text-align: center;
 }
 
+.small-size-quote{
+    padding: 35px 60px;
+}
 
 /* Add an italic font style to all quotes */
 q {
