@@ -4,7 +4,6 @@ body, h1, h2, h3, h4, h5, h6, a, p, div, header, img, section
 {
     margin: 0;
 }
-
 /* Initializing the variables used in the website */
 :root
 {
@@ -131,5 +130,111 @@ header{
     font-variant: small-caps;
     text-align: center;
     font-size: 50px;
+    margin-bottom: 10px;
+}
 
+/* 
+    Testimonials slider
+*/
+
+/* Slideshow container */
+.testimonials-container {
+    position: relative;
+    background: #f1f1f1f1;
+}
+  
+  /* Slides */
+.quotes {
+    display: none;
+    padding: 80px;
+    text-align: center;
+}
+
+
+/* Add an italic font style to all quotes */
+q {
+    font-style: italic;
+    font-family: var(--montserrat-font);
+    font-size: 24px;
+}
+
+/* Add a blue color to the author */
+.author {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: var(--times-new-roman-font);
+    margin-top: 10px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+/* On hover, increase the buttons' size  */
+.prev:hover, .next:hover {
+    font-size: 50px;
+    margin-top: -47px;
+}
+  
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+  
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+    background-color: #717171;
+}
+  
+#small-size-quote{
+    font-size: 22px;
+}
+
+/*
+    Testimonial sliders 
+*/
+
+footer{
+    padding: 17px;
+    background: #595959;
+    
+}
+.footer-text{
+    color: #FF0000;
+    text-align: center;
+    font-family: var(--montserrat-font);
+    font-weight: bold;
 }
