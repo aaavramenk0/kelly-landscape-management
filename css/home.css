@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
-body, h1, h2, h3, h4, h5, h6, a, p, div, header, img, section
-{
-    margin: 0;
-}
-/* Initializing the variables used in the website */
-:root
-{
+:root {
     --times-new-roman-font: 'Times New Roman', Times, serif;
     --montserrat-font: 'Montserrat', sans-serif;
+    --main-red-color: #f00;
 }
-header{
-    height: 595px;
-    
+
+* {
+    margin: 0;
+    padding: 0;
 }
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
 .background-video {
     position: fixed;
-    overflow: hidden;
     right: 0;
     bottom: 0;
     min-width: 100%;
@@ -43,28 +45,27 @@ header{
 .nav-bar
 {
     margin-left: 66px;
-    display: flex;
     font-family: var(--times-new-roman-font);
     font-weight: bold;
     font-size: 36px;
 }
 
+ul li{
+    display: inline;
+    margin: 0 50px;
+}
 .nav-bar-item
 {
-    width: 225px;
-    align-items: center;
-    text-align: center;
     cursor: pointer;
     font-variant: small-caps;
+    color: #000;
 }
 
 .nav-bar-item:hover
 {
-    
     font-size: 42px;
-    color: #FF0000;
-    text-decoration-line: underline;
-    
+    color: var(--main-red-color);
+    text-decoration: underline;   
 }
 
 /* 
@@ -72,7 +73,7 @@ header{
 */
 .btn
 {
-    background-color: #FF0000;
+    background-color: var(--main-red-color);
     border-radius: 50px;
     text-decoration: none;
     font-family: var(--montserrat-font);
@@ -101,7 +102,7 @@ header{
 }
 .kelly{
     text-transform: uppercase;
-    color: #FF0000;
+    color: var(--main-red-color);
     font-weight: bold;
 }
 .button-div{
@@ -164,7 +165,7 @@ q {
 
 /* Add a blue color to the author */
 .author {
-    color: #FF0000;
+    color: var(--main-red-color);
     font-weight: bold;
     font-size: 24px;
     font-family: var(--times-new-roman-font);
@@ -179,7 +180,7 @@ q {
     width: auto;
     margin-top: -30px;
     padding: 16px;
-    color: #FF0000;
+    color: var(--main-red-color);
     font-weight: bold;
     font-size: 30px;
     border-radius: 0 3px 3px 0;
@@ -237,8 +238,16 @@ footer{
     
 }
 .footer-text{
-    color: #FF0000;
+    color: var(--main-red-color);
     text-align: center;
     font-family: var(--montserrat-font);
     font-weight: bold;
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+    
 }
