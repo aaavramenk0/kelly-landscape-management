@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/home.css">
     <!-- Icon in title -->
     <link rel="icon" href="img/logo.svg">
-    <title>Kelly Landscapes Management</title>
+    <title>KLM | Home</title>
 </head>
 <body>
     <header>
@@ -16,17 +16,24 @@
             <source src="img/bg_video.mp4" type="video/mp4">
         </video>
         <!-- Navigation bar: { logo , nav.bar items , button } -->
-         <div class="offer">
+        <div class="navbar topnav" id="myTopnav">
             <a href="home.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
 
-            <ul class="nav-bar">
-                <li><a href="home.html" class="nav-bar-item">Home</a></li>
-                <li><a href="lawn-care.html" class="nav-bar-item">Services</a></li>
-                <li><a href="aboutus.html" class="nav-bar-item">About us</a></li>
-                <li><a href="careers.html" class="nav-bar-item">Careers</a></li>
-            </ul>
-            
+            <a href="home.html" class="navbar-item navbar-active">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn navbar-item " onclick="myFunction()">Services</button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="lawn-care.html" class="dropdown-item">Lawn care</a>
+                    <a href="maintenance.html" class="dropdown-item">Maintenance</a>
+                    <a href="irrigation.html" class="dropdown-item">Irrigation</a>
+                    <a href="landscaping.html" class="dropdown-item">Landscaping</a>
+                    <a href="properly-sweeping.html" class="dropdown-item">Properly Sweeping</a>
+                </div>
+            </div>
+            <a href="aboutus.html" class="navbar-item">About us</a>
+            <a href="careers.html" class="navbar-item">Careers</a>            
             <a href="free-lawn-estimate.html" class="btn est-btn">Free Lawn <br> Estimate</a>
+
         </div>
 
         <div class="main-screen">
@@ -93,6 +100,10 @@
         <p class="footer-text">© Copyright 2020 - All Rights Reserved</p>
     </footer>
 
+    
     <script src="js/testimonial-slider.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/topnav.js"></script>
+    
 </body>
 </html>
