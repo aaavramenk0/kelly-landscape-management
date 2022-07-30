@@ -186,3 +186,25 @@ header{
     font-family: var(--montserrat-font);
     text-transform: uppercase;
 }
+
+.ga-weeds{
+    padding-top: 35px;
+}
+.weeds-heading{
+    text-align: center;
+    font-family: var(--times-new-roman-font);
+    font-weight: bold;
+    font-size: 34px;
+    margin: 15px;
+}
+.weeds{
+    /* display: grid;
+    column-gap: 50px;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr; */
+    
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px; */
+}
