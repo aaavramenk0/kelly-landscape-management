@@ -73,7 +73,7 @@ body{
     color: var(--main-red-color);
     font-size: 36px;
     font-weight: bold;
-    text-decoration: underline;   
+    border-top: 4px solid var(--main-red-color);
 }
 
 .dropdown-content {
