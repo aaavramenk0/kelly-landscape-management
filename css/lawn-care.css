@@ -282,8 +282,9 @@ ul li{
     margin-top: 15px;
 }
 ul li:hover{
-    font-size: 26px;
-    text-decoration: underline;
+    color: var(--main-red-color);
+    font-weight: bold;
+    cursor: pointer;
 }
 .wrapper{
     display: flex;
