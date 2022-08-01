@@ -268,14 +268,15 @@ header{
     font-size: 34px;
     padding-top: 15px;
     font-family: var(--poppins-font);
-    padding-left: 150px;
+    padding-left: 175px;
 }
 .lawn-care-list{
     font-size: 24px;
+    list-style-type: none;
 }
 .lawn-care-item{
     font-family: var(--montserrat-font);
-    padding-left: 75px;
+    padding-left: 150px;
 }
 ul li{
     margin-top: 15px;
@@ -284,3 +285,15 @@ ul li:hover{
     font-size: 26px;
     text-decoration: underline;
 }
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.lawn-care-photo{
+    width: 75%;
+}
+
+
+
