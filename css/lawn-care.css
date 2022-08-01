@@ -255,8 +255,33 @@ header{
 .chickweed{
     background: url(../img/weeds/chickweed.svg) no-repeat center top;
 }
+
 .hr{
-    text-align: center;
-    margin: 15px;
-       
+   color: rgba(0, 0, 0, 0.4);
+   size: 1px;
+   width: 75%;
+   margin: 10px auto;
 }
+
+.lawn-care-list-heading{
+    font-size: 34px;
+    padding-top: 15px;
+    font-family: var(--poppins-font);
+    padding-left: 150px;
+}
+.lawn-care-list{
+    font-size: 24px;
+}
+.lawn-care-item{
+    font-family: var(--montserrat-font);
+    padding-left: 50px;
+}
+ul li{
+    margin-top: 15px;
+}
+ul li:hover{
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+/* patch 14
