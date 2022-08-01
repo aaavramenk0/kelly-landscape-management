@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Connecting CSS to HTML -->
+    <link rel="stylesheet" href="css/maintenance.css">
+    <!-- Icon in title -->
+    <link rel="icon" href="img/logo.svg">
+    <title>KLM | Services | Maintenance</title>
+</head>
+<body>
+    <header>
+        <!-- Navigation bar: { logo , nav.bar items , button } -->
+        <div class="navbar topnav" id="myTopnav">
+            <a href="home.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
+
+            <a href="home.html" class="navbar-item navbar-active">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn navbar-item " onclick="myFunction()">Services</button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="lawn-care.html" class="dropdown-item">Lawn care</a>
+                    <a href="maintenance.html" class="dropdown-item">Maintenance</a>
+                    <a href="irrigation.html" class="dropdown-item">Irrigation</a>
+                    <a href="landscaping.html" class="dropdown-item">Landscaping</a>
+                    <a href="properly-sweeping.html" class="dropdown-item">Properly Sweeping</a>
+                </div>
+            </div>
+            <a href="aboutus.html" class="navbar-item">About us</a>
+            <a href="careers.html" class="navbar-item">Careers</a>            
+            <a href="free-lawn-estimate.html" class="btn est-btn">Free Lawn <br> Estimate</a>
+        </div>
+
+        <div class="main-screen">
+            <h1 class="main-screen-text">Maintenance services</h1>
+        </div>
+    </header>
+
+    <section class="offer-section">
+        <h2 class="offer-heading">What is Lawn Maintenance?</h2>
+        <p class="offer-text">Lawn Maintenance is anything from mowing and edging to bush trimming and tree limbing. Request a free quote for Kelly Landscapes to perfect your lawn and increase your curb appeal today.</p>
+        <button class="btn offer-btn"><a href="free-lawn-estimate.html" class="offer-btn-a"> Get your maintenance <br><span>today</span></a></button>
+    </section>  
+
+    <section class="maintenance-services">
+        <div class="services">
+            <div class="service mowing">
+                <h3 class="service-heading">
+                    Mowing
+                </h3>
+                <p class="service-text">
+                    Mowing is the process of cutting grass to one even level 
+                </p>
+            </div>
+            <div class="service tree-limbing">
+                <h3 class="service-heading">
+                    Tree limbing
+                </h3>
+                <p class="service-text">
+                    The process of moving unwanted branches from a tree
+                </p>
+            </div>
+            <div class="service weedeating">
+                <h3 class="service-heading">
+                    Weedeating
+                </h3>
+                <p class="service-text">
+                    The process of trimming grass a mower cannot reach
+                </p>
+            </div>
+        </div>
+        <div class="services">
+            <div class="service blowing">
+                <h3 class="service-heading">
+                    Blowing
+                </h3>
+                <p class="service-text">
+                    Blows leftover grass out of driveways and sidewalks
+                </p>
+            </div>
+            <div class="service bush-trimming">
+                <h3 class="service-heading">
+                    Bush trimming
+                </h3>
+                <p class="service-text">
+                    Trims bushes into an asthetically pleasing shape
+                </p>
+            </div>
+            <div class="service edging">
+                <h3 class="service-heading">
+                    Edging
+                </h3>
+                <p class="service-text">
+                    Edging is the process of making a defined border against driveways, etc
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="footer-text">© Copyright 2020 - All Rights Reserved</p>
+    </footer>
+
+    <script src="js/dropdown.js"></script>
+</body>
+</html>

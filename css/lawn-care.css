@@ -149,7 +149,6 @@ header{
 .offer-section{
     padding-top: 50px;
     text-align: center;
-    
     font-weight: 400;
 }
 .offer-heading{
@@ -200,25 +199,11 @@ header{
     margin: 5px 15px 15px;
     font-family: var(--poppins-font);
 }
-
 .weeds{
     display: grid;
-    /* column-gap: 50px; */
     justify-content: space-around;
     grid-template-columns: 1fr 1fr 1fr; 
-    
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 50px; */
-    
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr)); */
 }
-/* .weed{
-    display: block;
-    margin: 0 auto;
-} */
 .weed{
     width: 400px;
     padding-top: 360px;
@@ -295,6 +280,18 @@ ul li:hover{
 .lawn-care-photo{
     width: 75%;
 }
+.lawn-care-button{
+    text-align: center;
+}
 
-
-
+footer{
+    padding: 17px;
+    background: #595959;
+    
+}
+.footer-text{
+    color: var(--main-red-color);
+    text-align: center;
+    font-family: var(--montserrat-font);
+    font-weight: bold;
+}
