@@ -3,12 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Lawn Estimate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Connecting CSS to HTML -->
+    <link rel="stylesheet" href="css/lawn-estimate.css">
     <!-- Icon in title -->
     <link rel="icon" href="img/logo.svg">
+    <title>KLM | Free lawn estimate</title>
 </head>
 <body>
-    Coming soon...
+    <header>
+            <video autoplay muted loop  class="background-video">
+                <source src="img/bg_video.mp4" type="video/mp4">
+            </video>
+        <!-- Navigation bar: { logo , nav.bar items , button } -->
+        <div class="navbar topnav" id="myTopnav">
+            <a href="home.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
+
+            <a href="home.html" class="navbar-item navbar-active">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn navbar-item " onclick="myFunction()">Services</button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="lawn-care.html" class="dropdown-item">Lawn care</a>
+                    <a href="maintenance.html" class="dropdown-item">Maintenance</a>
+                    <a href="irrigation.html" class="dropdown-item">Irrigation</a>
+                    <a href="landscaping.html" class="dropdown-item">Landscaping</a>
+                    <a href="properly-sweeping.html" class="dropdown-item">Properly Sweeping</a>
+                </div>
+            </div>
+            <a href="aboutus.html" class="navbar-item">About us</a>
+            <a href="careers.html" class="navbar-item">Careers</a>            
+            <a href="free-lawn-estimate.html" class="btn est-btn">Free Lawn <br> Estimate</a>
+
+        </div>
+    </header>
+
+    <footer>
+        <p class="footer-text">© Copyright 2020 - All Rights Reserved</p>
+    </footer>
+
+    
+    
+    <script src="js/dropdown.js"></script>
+    
 </body>
 </html>

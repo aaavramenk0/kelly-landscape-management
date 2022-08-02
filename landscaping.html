@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Connecting CSS to HTML -->
+    <link rel="stylesheet" href="css/landscaping.css">
+    <!-- Icon in title -->
+    <link rel="icon" href="img/logo.svg">
+    <title> KLM | Services | Landscaping </title>
+</head>
+<body>
+    <header>
+        <!-- Navigation bar: { logo , nav.bar items , button } -->
+        <div class="navbar topnav" id="myTopnav">
+            <a href="home.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
+
+            <a href="home.html" class="navbar-item navbar-active">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn navbar-item " onclick="myFunction()">Services</button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="lawn-care.html" class="dropdown-item">Lawn care</a>
+                    <a href="maintenance.html" class="dropdown-item">Maintenance</a>
+                    <a href="irrigation.html" class="dropdown-item">Irrigation</a>
+                    <a href="landscaping.html" class="dropdown-item">Landscaping</a>
+                    <a href="properly-sweeping.html" class="dropdown-item">Properly Sweeping</a>
+                </div>
+            </div>
+            <a href="aboutus.html" class="navbar-item">About us</a>
+            <a href="careers.html" class="navbar-item">Careers</a>            
+            <a href="free-lawn-estimate.html" class="btn est-btn">Free Lawn <br> Estimate</a>
+        </div>
+
+        <div class="main-screen">
+            <h1 class="main-screen-text">Landscaping services</h1>
+        </div>
+    </header>
+
+    <section class="offer-section">
+        <h2 class="offer-heading">What is Landscaping?</h2>
+        <p class="offer-text">Landscaping is the process of increasing curb appeal of a home or business through additional features that include but are not limited to plants, trees, shrubs, hardscape, flowers, pine straw, mulch, sod, etc.</p>
+        <button class="btn offer-btn"><a href="free-lawn-estimate.html" class="offer-btn-a"> Get your landscaping service <br><span>today</span></a></button>
+    </section>  
+
+    <!-- 
+        Slider with "before-after" photos 
+    -->
+
+    <section class="irrigation-services">
+        <div class="services">
+            <div class="service pine">
+                <h3 class="service-heading">
+                    Pine straw installation
+                </h3>
+                <p class="service-text">
+                    Pine straw installation is the process of adding high quality pine needles around plants to increase curb appeal. 
+                </p>
+            </div>
+            <div class="service plants">
+                <h3 class="service-heading">
+                    Plants/Flowers
+                </h3>
+                <p class="service-text">
+                    Kelly Landscapes supports local nursery’s through buying the best plants and flowers for customers homes and businesses. 
+                </p>
+            </div>
+            <div class="service walls">
+                <h3 class="service-heading">
+                    Retaining walls
+                </h3>
+                <p class="service-text">
+                    Retaining walls are often used to hold dirt or water in an area. Retaining walls add to the curb appeal of a home and can provide a unique area to plant flowers, shrubs, etc. 
+                </p>
+            </div>
+        </div>
+        <div class="services">
+            <div class="service sod">
+                <h3 class="service-heading">
+                    SOD installation
+                </h3>
+                <p class="service-text">
+                    Kelly Landscapes uses high quality, top notch sod for customers. Sod is pieces of grass ready to be placed on grated, level, and prepared ground. 
+                </p>
+            </div>
+            <div class="service walks">
+                <h3 class="service-heading">
+                    Walkway/Steps
+                </h3>
+                <p class="service-text">
+                    Walkways are a great way to add curb appeal to a home. Kelly Landscapes can add walkways, and multiple other hardscapes to help you enjoy your yard. 
+                </p>
+            </div>
+            <div class="service water">
+                <h3 class="service-heading">
+                    Water/Lighting features
+                </h3>
+                <p class="service-text">
+                    We offer a wide variety of water and lighting features to make your home the best on the block. Request a quote to see the options we offer.
+                </p>
+            </div>
+        </div>
+        <hr class="hr" noshade>
+    </section>
+
+    <section>
+        <h2 class="landscaping-list-heading" >
+            Landscaping Services can Include:
+        </h2>
+        <div class="wrapper">
+            <ul class="landscaping-list" id="landscaping-list">
+                <li class="landscaping-item">Fire pits</li>
+                <li class="landscaping-item">Decks</li>
+                <li class="landscaping-item">Hardscapes</li>
+                <li class="landscaping-item">Trees/Shrubbery</li>
+                <li class="landscaping-item">Outdoor Rooms</li>
+                <li class="landscaping-item">Outdoor Walls</li>
+                <li class="landscaping-item">Patios</li>
+                <li class="landscaping-item">Pine Straw Installation</li>
+                <li class="landscaping-item">Plants/Flowers</li>
+                <li class="landscaping-item">Retaining Walls</li>
+                <li class="landscaping-item">Walkways/Steps</li>
+                <li class="landscaping-item">Water/Lighting Features</li>
+            </ul>
+            <div>
+                <img src="img/landscaping/0.svg" alt="" class="landscaping-photo" id="landscaping-photo">
+            </div>
+        </div>
+        <div class="landscaping-button">
+            <button class="btn offer-btn"><a href="free-lawn-estimate.html" class="offer-btn-a"> Get your free quote <br><span>today</span></a></button>
+        </div>
+    </section>
+
+    <footer>
+        <p class="footer-text">© Copyright 2020 - All Rights Reserved</p>
+    </footer>
+
+    <script src="js/dropdown.js"></script>
+    <script src="js/landscaping-photos.js"></script>
+</body>
+</html>
