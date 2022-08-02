@@ -140,10 +140,6 @@ header{
     flex-direction: row;
     justify-content: space-around;
 }
-.form{
-    display: flex;
-    flex-direction: column; 
-}
 
 footer{
     padding: 17px;
