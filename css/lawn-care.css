@@ -82,7 +82,6 @@ header{
     text-align: center;
     
 }
-
 .dropdown-item {
     font-variant: small-caps;
     color: black;
@@ -91,19 +90,16 @@ header{
     font-size: 20px;
     display: block;
 }
-
 .dropdown-item:hover {
     
     color: var(--main-red-color);
     font-size: 22px;
     font-weight: bold;
     text-decoration: underline;
-}
-  
+} 
 .show {
     display: block;
 }
-
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;
@@ -128,11 +124,11 @@ header{
 /*
     Button style ⬆
 */
-
 .est-btn{
     float: left;
     margin-top: 25px;
 }
+
 .main-screen{
     padding-top: 180px;
     padding-bottom: 100px;
