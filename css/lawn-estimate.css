@@ -135,10 +135,47 @@ header{
     margin-top: 25px;
 }
 
-.wrapper{
+.wrapper {
+    width: 1200px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+form{
+    margin: 50px 30px;
+    display: grid;
+}
+input {
+    border: 0;
+    border-bottom: 1px solid #7A7A7A;
+    line-height: 45px;
+    color: #7A7A7A;
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+}
+input::placeholder{
+    color: #7A7A7A;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.submit-btn{
+    border: 0;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.contact-heading{
+    font-family: var(--montserrat-font);
+    color: var(--main-red-color);
+    font-size: 40px;
+    text-align: center;
+}
+
+.phone, .mail {
+    font-family: var(--montserrat-font);
+    font-weight: bold;
+    font-size: 30px;
 }
 
 footer{
