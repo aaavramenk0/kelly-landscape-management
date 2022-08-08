@@ -69,7 +69,7 @@
     
 
     <div class="wrapper">
-        <form action="submit" class="contact-form">
+        <form action="php/form-to-email.php" class="contact-form" method="post" name="email-form">
             <input type="text" name="name" id="" placeholder="What’s your name?">
             <input type="email" name="mail" id="" placeholder="Your email">
             <input type="tel" name="phone" id="" placeholder="Your phone number">
@@ -133,7 +133,7 @@
             <input type="text" name="zip" id="" placeholder="Your zip code">
             </div>
             <input type="text" name="message" id="last-input" placeholder="How can Kelly Landscapes help you?" disabled> <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button type="submit" class="submit-btn btn">Submit form</button>
+            <input type="submit" class="submit-btn btn" value="Submit form">
         </form>
         <div class="contacts">
             <h2 class="contact-heading">
