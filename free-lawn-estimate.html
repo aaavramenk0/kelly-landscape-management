@@ -1,3 +1,5 @@
+<?php include 'php/form-to-email.php';?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,9 +19,9 @@
     <header>
         <!-- Navigation bar: { logo , nav.bar items , button } -->
         <div class="navbar topnav" id="myTopnav">
-            <a href="home.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
+            <a href="index.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
 
-            <a href="home.html" class="navbar-item navbar-active">Home</a>
+            <a href="index.html" class="navbar-item navbar-active">Home</a>
             <div class="dropdown">
                 <button class="dropbtn navbar-item " onclick="myFunction()">Services</button>
                 <div class="dropdown-content" id="myDropdown">
@@ -133,7 +135,7 @@
             <input type="text" name="zip" id="" placeholder="Your postal/zip code">
             </div>
             <input type="text" name="" id="last-input" placeholder="How can Kelly Landscapes help you?" disabled> <textarea name="message" id="" cols="30" rows="10"></textarea>
-            <input type="submit" class="submit-btn btn" value="Submit form">
+            <input type="submit" class="submit-btn btn" value="Submit form" name="submit">
         </form>
         <div class="contacts">
             <h2 class="contact-heading">
