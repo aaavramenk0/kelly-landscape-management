@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Link to icons for phone and mail-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Connecting CSS to HTML -->
+    <link rel="stylesheet" href="css/lawn-estimate.css">
+    <!-- Icon in title -->
+    <link rel="icon" href="img/logo.svg">
+    <title>KLM | Free lawn estimate</title>
+</head>
+<body>
+    <header>
+        <!-- Navigation bar: { logo , nav.bar items , button } -->
+        <div class="navbar topnav" id="myTopnav">
+            <a href="index.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
+
+            <a href="index.html" class="navbar-item navbar-active">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn navbar-item " onclick="myFunction()">Services</button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="lawn-care.html" class="dropdown-item">Lawn care</a>
+                    <a href="maintenance.html" class="dropdown-item">Maintenance</a>
+                    <a href="irrigation.html" class="dropdown-item">Irrigation</a>
+                    <a href="landscaping.html" class="dropdown-item">Landscaping</a>
+                    <a href="properly-sweeping.html" class="dropdown-item">Properly Sweeping</a>
+                </div>
+            </div>
+            <a href="aboutus.html" class="navbar-item">About us</a>
+            <a href="careers.html" class="navbar-item">Careers</a>            
+            <a href="free-lawn-estimate.html" class="btn est-btn">Free Lawn <br> Estimate</a>
+        </div>
+    </header>
+    <!-- Form and contacts
+    <section>
+        <div class="wrapper">
+            <div class="form">
+                <form action="submit" class="contact-form">
+                    <input type="text" name="name" id="" placeholder="What’s your name?">
+                    <br><input type="email" name="mail" id="" placeholder="Your email">
+                    <br><input type="tel" name="phone" id="" placeholder="Your phone number">
+                    <br><input type="text" name="adress" id="" placeholder="Your address">
+                    <div class="wrapper">
+                        <div class="inner-form">
+                            <input type="text" name="city" id="" placeholder="Your city">
+                            <input type="text" name="state" id="" placeholder="Your state">
+                            <input type="text" name="zip" id="" placeholder="Your zip code">
+                        </div>
+                    </div>
+                    <input type="text" name="message" id="" placeholder="What can Kelly Landscapes help you with?">
+                    <button type="submit" class="submit-btn btn">Submit form</button>
+                </form>
+            </div>
+            <div class="contacts">
+                <h2 class="contact-heading">
+                    Contact info
+                </h2>
+                <a href="tel:+17704454459" class="phone">(770)-445-4459</a>
+                <br>
+                <a href="mailto:info@kellylandscapes.com" class="mail">info@kellylandscapes.com</a>
+            </div>
+        </div>
+    </section>
+    -->
+    
+
+    <div class="wrapper">
+        <form action="php/form-to-email.php" class="contact-form" method="post" name="email-form">
+            <input type="text" name="name" id="" placeholder="What’s your name?">
+            <input type="email" name="mail" id="" placeholder="Your email">
+            <input type="tel" name="phone" id="" placeholder="Your phone number">
+            <input type="text" name="address" id="" placeholder="Your address">
+            <input type="text" name="city" id="" placeholder="Your city">
+            <div class="input-wrap">
+            <select class="state-selection">
+                <option value="state">Your state</option>
+                <option value="AL">Alabama (AL)</option>
+                <option value="AK">Alaska (AK)</option>
+                <option value="AZ">Arizona (AZ)</option>
+                <option value="AR">Arkansas (AR)</option>
+                <option value="CA">California (CA)</option>
+                <option value="CO">Colorado (CO)</option>
+                <option value="CT">Connecticut (CT)</option>
+                <option value="DE">Delaware (DE)</option>
+                <option value="DC">District Of Columbia (DC)</option>
+                <option value="FL">Florida (FL)</option>
+                <option value="GA">Georgia (GA)</option>
+                <option value="HI">Hawaii (HI)</option>
+                <option value="ID">Idaho (ID)</option>
+                <option value="IL">Illinois (IL)</option>
+                <option value="IN">Indiana (IN)</option>
+                <option value="IA">Iowa (IA)</option>
+                <option value="KS">Kansas (KS)</option>
+                <option value="KY">Kentucky (KY)</option>
+                <option value="LA">Louisiana (LA)</option>
+                <option value="ME">Maine (ME)</option>
+                <option value="MD">Maryland (MD)</option>
+                <option value="MA">Massachusetts (MA)</option>
+                <option value="MI">Michigan (MI)</option>
+                <option value="MN">Minnesota (MN)</option>
+                <option value="MS">Mississippi (MS)</option>
+                <option value="MO">Missouri (MO)</option>
+                <option value="MT">Montana (MT)</option>
+                <option value="NE">Nebraska (NE)</option>
+                <option value="NV">Nevada (NV)</option>
+                <option value="NH">New Hampshire (NH)</option>
+                <option value="NJ">New Jersey (NJ)</option>
+                <option value="NM">New Mexico (NM)</option>
+                <option value="NY">New York (NY)</option>
+                <option value="NC">North Carolina (NC)</option>
+                <option value="ND">North Dakota (ND)</option>
+                <option value="OH">Ohio (OH)</option>
+                <option value="OK">Oklahoma (OK)</option>
+                <option value="OR">Oregon (OR)</option>
+                <option value="PA">Pennsylvania (PA)</option>
+                <option value="RI">Rhode Island (RI)</option>
+                <option value="SC">South Carolina (SC)</option>
+                <option value="SD">South Dakota (SD)</option>
+                <option value="TN">Tennessee (TN)</option>
+                <option value="TX">Texas (TX)</option>
+                <option value="UT">Utah (UT)</option>
+                <option value="VT">Vermont (VT)</option>
+                <option value="VA">Virginia (VA)</option>
+                <option value="WA">Washington (WA)</option>
+                <option value="WV">West Virginia (WV)</option>
+                <option value="WI">Wisconsin (WI)</option>
+                <option value="WY">Wyoming (WY)</option>
+            </select>
+            <input type="text" name="zip" id="" placeholder="Your postal/zip code">
+            </div>
+            <input type="text" name="" id="last-input" placeholder="How can Kelly Landscapes help you?" disabled> <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="submit-btn btn" value="Submit form" name="submit">
+        </form>
+        <div class="contacts">
+            <h2 class="contact-heading">
+                Contact info
+            </h2>
+            <a href="tel:+17704454459"><p class="phone"><span class="material-symbols-rounded">call</span> (770)-445-4459</p></a>
+            <br>
+            <a href="mailto:info@kellylandscapes.com"><p class="mail"> <!--<span class="material-symbols-rounded">mail</span>--> info@kellylandscapes.com</p></a>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <p class="footer-text">© Copyright 2020 - All Rights Reserved</p>
+    </footer>
+    
+    <script src="js/dropdown.js"></script>
+</body>
+</html>
