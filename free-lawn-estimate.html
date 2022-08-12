@@ -7,6 +7,7 @@
     <!-- Link to icons for phone and mail-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- Connecting CSS to HTML -->
     <link rel="stylesheet" href="css/lawn-estimate.css">
     <!-- Icon in title -->
@@ -71,12 +72,13 @@
     <div class="wrapper">
         <form action="form-to-email.php" method="post" class="contact-form"  name="email-form" id="form">
             <input type="text" class="_req" name="name" id="" placeholder="What’s your name?">
-            <input type="email" class="_req" name="mail" id="" placeholder="Your email">
+            <input type="email" class="_req _email" name="mail" id="" placeholder="Your email">
             <input type="tel" class="_req" name="phone" id="" placeholder="Your phone number">
             <input type="text" class="_req" name="address" id="" placeholder="Your address">
             <input type="text" class="_req" name="city" id="" placeholder="Your city">
+            
             <div class="input-wrap">
-            <select class="state-selection _req">
+            <select class="state-selection">
                 <option value="state">Select your state</option>
                 <option value="AL">Alabama (AL)</option>
                 <option value="AK">Alaska (AK)</option>
@@ -130,9 +132,9 @@
                 <option value="WI">Wisconsin (WI)</option>
                 <option value="WY">Wyoming (WY)</option>
             </select>
-            <input type="text" name="zip" id="" placeholder="Your postal/zip code">
             </div>
-            <input type="text" class="_req" name="" id="last-input" placeholder="How can Kelly Landscapes help you?" disabled> <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <input type="text" class="_req" name="zip" id="" placeholder="Your postal/zip code">
+            <input type="text" class="" name="" id="last-input" placeholder="How can Kelly Landscapes help you?" disabled> <textarea name="message" id="" cols="30" rows="10"></textarea>
             <input type="submit" class="submit-btn btn" value="Submit form" name="submit">
         </form>
         <div class="contacts">

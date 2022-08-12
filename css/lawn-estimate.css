@@ -162,6 +162,15 @@ input{
 input:focus{
     border-bottom: 3px solid var(--main-red-color);
 }
+input._error, select._error{
+    background-image: url(../img/warning.png);
+    background-position: left;
+    background-size: 45px;
+    width: 754px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
 
 option{
     font-family: var(--montserrat-font);
