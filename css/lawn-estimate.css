@@ -232,6 +232,10 @@ input::placeholder{
     top: 5px;
 }
 
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
 .contact-heading{
     font-family: var(--montserrat-font);
     color: var(--main-red-color);
@@ -267,7 +271,19 @@ textarea{
     font-family: 'Montserrat', sans-serif;
 }
 
-
+.mapouter{
+    position: relative;
+    text-align: right;
+    height: 600px;
+    width: 600px;
+    padding-left: 30px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 600px;
+    width: 600px;
+}
 
 footer{
     padding: 17px;
