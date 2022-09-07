@@ -302,13 +302,17 @@ footer{
 /* Style the navigation menu */
 .topnav-small-screens {
     overflow: hidden;
-    background-color: #333;
+    background: rgba(217, 217, 217, 0.53);
     position: relative;
     display: none;
 }
 .logo-small-screens{
     width: 40px;
     height: 40px;
+}
+.menu_btn{
+    width: 30px;
+    height: 30px;
 }
   
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -342,8 +346,7 @@ footer{
   
 /* Style the active link (or home/logo) */
 .active {
-    background-color: #04AA6D;
-    color: white;
+    background: rgba(47, 102, 43, 0);
 }
 
 
