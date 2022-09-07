@@ -12,30 +12,56 @@
 </head>
 <body>
     <header>
-        <!-- Navigation bar: { logo , nav.bar items , button } -->
-        <div class="navbar topnav" id="myTopnav">
-            <a href="index.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
+        <video autoplay muted loop  class="background-video">
+            <source src="img/bg_video.mp4" type="video/mp4">
+        </video>
+    <!-- Navigation bar: { logo , nav.bar items , button } -->
 
-            <a href="index.html" class="navbar-item navbar-active">Home</a>
-            <div class="dropdown">
-                <button class="dropbtn navbar-item " onclick="myFunction()">Services</button>
-                <div class="dropdown-content" id="myDropdown">
-                    <a href="lawn-care.html" class="dropdown-item">Lawn care</a>
-                    <a href="maintenance.html" class="dropdown-item">Maintenance</a>
-                    <a href="irrigation.html" class="dropdown-item">Irrigation</a>
-                    <a href="landscaping.html" class="dropdown-item">Landscaping</a>
-                    <a href="properly-sweeping.html" class="dropdown-item">Properly Sweeping</a>
-                </div>
+    <!-- Top Navigation Menu -->
+    <div class="topnav-small-screens">
+        <a href="index.html" class="active"><img src="img/logo.svg" alt="logo" class="logo-small-screens"></a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="lawn-care.html" class="menu-item">Lawn care</a>
+            <a href="maintenance.html" class="menu-item">Maintenance</a>
+            <a href="irrigation.html" class="menu-item">Irrigation</a>
+            <a href="landscaping.html" class="menu-item">Landscaping</a>
+            <a href="properly-sweeping.html" class="menu-item">Properly Sweeping</a>
+            <a href="aboutus.html" class="menu-item">About us</a>
+            <a href="careers.html" class="menu-item">Careers</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon"  to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="img/menu.png" alt="" class="menu_btn"></a>
+    </div>
+
+    <div class="navbar topnav" id="myTopnav">
+        <a href="index.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
+
+        <a href="index.html" class="navbar-item navbar-active">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn navbar-item " onclick="myFunction()">Services</button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="lawn-care.html" class="dropdown-item">Lawn care</a>
+                <a href="maintenance.html" class="dropdown-item">Maintenance</a>
+                <a href="irrigation.html" class="dropdown-item">Irrigation</a>
+                <a href="landscaping.html" class="dropdown-item">Landscaping</a>
+                <a href="properly-sweeping.html" class="dropdown-item">Properly Sweeping</a>
             </div>
-            <a href="aboutus.html" class="navbar-item">About us</a>
-            <a href="careers.html" class="navbar-item">Careers</a>            
-            <a href="free-lawn-estimate.html" class="btn est-btn">Free Lawn <br> Estimate</a>
         </div>
+        <a href="aboutus.html" class="navbar-item">About us</a>
+        <a href="careers.html" class="navbar-item">Careers</a>            
+        <a href="free-lawn-estimate.html" class="btn est-btn">Free Lawn <br> Estimate</a>
 
-        <div class="main-screen">
-            <h1 class="main-screen-text">Maintenance services</h1>
+    </div>
+
+    <div class="main-screen">
+        <h1 class="main-screen-text">Life too busy? <br> Let <span class="kelly">Kelly</span> take care of your lawn!</h1>
+        <div class="button-div">
+            <a href="callus.html" class="btn call-btn">Call us now</a>
         </div>
-    </header>
+        <h3 class="main-screen-subtext">Serving the Greater Atlanta area since 1992</h3>
+    </div>
+</header>
 
     <section class="offer-section">
         <h2 class="offer-heading">What is Lawn Maintenance?</h2>
@@ -103,5 +129,6 @@
     </footer>
 
     <script src="js/dropdown.js"></script>
+    <script src="js/topnav.js"></script>
 </body>
 </html>
