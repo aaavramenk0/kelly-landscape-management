@@ -206,6 +206,9 @@ body *{
     text-align: center;
 }
 
+.quotes{
+    overflow-y: hidden ;
+}
 .small-size-quote{
     padding: 35px 60px;
 }
@@ -331,18 +334,14 @@ footer{
   
 /* Style the hamburger menu */
 .topnav-small-screens a.icon {
-    background: black;
+    background: rgba(0, 128, 49, 0.51);
+    border-radius: 50px;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
 }
-  
-/* Add a grey background color on mouse-over */
-.topnav-small-screens a:hover {
-    background-color: #ddd;
-    color: black;
-}
+
   
 /* Style the active link (or home/logo) */
 .active {
