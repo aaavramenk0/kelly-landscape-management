@@ -244,3 +244,101 @@ footer{
     font-family: var(--montserrat-font);
     font-weight: bold;
 }
+/* Style the navigation menu */
+.topnav-small-screens {
+    overflow: hidden;
+    background: rgba(217, 217, 217, 0.53);
+    position: relative;
+    display: none;
+}
+.logo-small-screens{
+    width: 40px;
+    height: 40px;
+}
+.menu_btn{
+    width: 30px;
+    height: 30px;
+}
+  
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav-small-screens #myLinks {
+    display: none;
+}
+  
+/* Style navigation menu links */
+.topnav-small-screens a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+/* Style the hamburger menu */
+.topnav-small-screens a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+    background: rgba(47, 102, 43, 0);
+}
+.menu-item{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--montserrat-font);
+    
+}
+
+
+@media screen and (max-width: 1300px) {
+    
+    .logo{
+        margin-left: 0px;
+    }
+    .navbar-item{
+        padding: 40px;
+    } 
+}
+@media screen and (max-width: 1245px) {
+    .navbar{
+        padding-left: 10px;
+    }
+    .logo{
+        width: 75px;
+        height: 75px;
+        margin-top: 20px;
+        margin-left: 20px;
+    } 
+}
+@media screen and (max-width: 1140px) {
+    .logo{
+        margin-left: 5px;
+    } 
+    .navbar-item{
+        font-size: 28px;
+    }
+    .est-btn{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1045px) {
+    .navbar-item{
+        padding: 40px 20px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .navbar{
+       display: none; 
+    }
+    .topnav-small-screens{
+        display: block;
+    }
+    .main-screen-subtext, .main-screen-text{
+        margin: 10px 10px;
+    }
+}
