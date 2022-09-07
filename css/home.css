@@ -304,4 +304,8 @@ footer{
     .logo{
         margin-left: 0px;
     }
+    .navbar{
+        padding-left: 10px;
+    }
+    
 }
