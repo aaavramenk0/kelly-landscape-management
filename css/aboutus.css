@@ -46,8 +46,8 @@ header{
     overflow: hidden;
     align-items: center;
     align-content: center;
+    justify-content: space-around;
     background: rgba(217, 217, 217, 0.53);
-    padding-bottom: 380px;
     padding-left: 100px;
 }
 
@@ -58,7 +58,7 @@ header{
     font-variant: small-caps;
     text-align: center;
     text-decoration: none;
-    padding: 40px 50px;
+    padding: 40px ;
 }
   
 .dropdown {
