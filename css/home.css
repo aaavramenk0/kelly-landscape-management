@@ -11,7 +11,7 @@
     padding: 0;
     font-family: var(--times-new-roman-font);
 }
-body *{
+body{
     overflow-x: hidden;
 }
 
@@ -52,7 +52,7 @@ body *{
     font-variant: small-caps;
     text-align: center;
     text-decoration: none;
-    padding: 40px ;
+    padding: 40px;
 }
   
 .dropdown {
@@ -106,7 +106,10 @@ body *{
 .show {
     display: block;
 }
-
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
 /* 
     Button style ⬇
 */
