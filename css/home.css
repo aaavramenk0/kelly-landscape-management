@@ -11,7 +11,7 @@
     padding: 0;
     font-family: var(--times-new-roman-font);
 }
-body{
+body *{
     overflow-x: hidden;
 }
 
@@ -299,8 +299,57 @@ footer{
 }
 
 
+/* Style the navigation menu */
+.topnav-small-screens {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    display: none;
+}
+.logo-small-screens{
+    width: 40px;
+    height: 40px;
+}
+  
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav-small-screens #myLinks {
+    display: none;
+}
+  
+/* Style navigation menu links */
+.topnav-small-screens a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+/* Style the hamburger menu */
+.topnav-small-screens a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+/* Add a grey background color on mouse-over */
+.topnav-small-screens a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+/* Style the active link (or home/logo) */
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
 
 @media screen and (max-width: 1300px) {
+    
     .logo{
         margin-left: 0px;
     }
@@ -308,35 +357,38 @@ footer{
         padding: 40px;
     } 
 }
-@media screen and (max-width: 1240px) {
-    
+@media screen and (max-width: 1245px) {
     .navbar{
         padding-left: 10px;
-    } 
-}
-@media screen and (max-width: 1160px) {
-    .est-btn{
-        display: none;
-    } 
-}
-@media screen and (max-width: 920px) {
+    }
     .logo{
-        width: 50px;
-        height: 50px;
-        margin-top: 15px;
+        width: 75px;
+        height: 75px;
+        margin-top: 20px;
+        margin-left: 20px;
+    } 
+}
+@media screen and (max-width: 1140px) {
+    .logo{
+        margin-left: 5px;
     } 
     .navbar-item{
-        padding: 20px 30px;
-    }
-}
-@media screen and (max-width: 770px) {
-    .navbar-item{
-        padding: 20px 15px;
-    }
-}
-@media screen and (max-width: 660px) {
-    .navbar-item{
-        padding: 20px 15px;
         font-size: 28px;
+    }
+    .est-btn{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1045px) {
+    .navbar-item{
+        padding: 40px 20px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .navbar{
+       display: none; 
+    }
+    .topnav-small-screens{
+        display: block;
     }
 }

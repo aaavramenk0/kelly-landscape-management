@@ -9,6 +9,9 @@
     <!-- Icon in title -->
     <link rel="icon" href="img/logo.svg">
     <title>KLM | Home</title>
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -16,6 +19,20 @@
                 <source src="img/bg_video.mp4" type="video/mp4">
             </video>
         <!-- Navigation bar: { logo , nav.bar items , button } -->
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav-small-screens">
+            <a href="index.html" class="active"><img src="img/logo.svg" alt="logo" class="logo-small-screens"></a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon"  to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </div>
+
         <div class="navbar topnav" id="myTopnav">
             <a href="index.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
 
