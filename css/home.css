@@ -339,18 +339,18 @@ footer{
     right: 0;
     top: 0;
 }
-.menu-item{
-    
-    text-align: center;
-    font-size: 18px;
-}
 
-  
 /* Style the active link (or home/logo) */
 .active {
     background: rgba(47, 102, 43, 0);
 }
-
+.menu-item{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--montserrat-font);
+    
+}
 
 
 @media screen and (max-width: 1300px) {
@@ -395,5 +395,8 @@ footer{
     }
     .topnav-small-screens{
         display: block;
+    }
+    .main-screen-subtext, .main-screen-text{
+        margin: 10px 10px;
     }
 }
