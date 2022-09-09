@@ -36,8 +36,7 @@ body{
 
 .navbar
 {
-    width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     align-items: center;
     align-content: center;
     justify-content: space-around;
@@ -328,8 +327,7 @@ footer{
 }
 
 
-@media screen and (max-width: 1300px) {
-    
+@media screen and (max-width: 1340px) {
     .logo{
         margin-left: 0px;
     }
@@ -337,7 +335,7 @@ footer{
         padding: 40px;
     } 
 }
-@media screen and (max-width: 1245px) {
+@media screen and (max-width: 1285px) {
     .navbar{
         padding-left: 10px;
     }
@@ -348,23 +346,8 @@ footer{
         margin-left: 20px;
     } 
 }
-@media screen and (max-width: 1140px) {
-    .logo{
-        margin-left: 5px;
-    } 
-    .navbar-item{
-        font-size: 28px;
-    }
-    .est-btn{
-        font-size: 20px;
-    }
-}
-@media screen and (max-width: 1045px) {
-    .navbar-item{
-        padding: 40px 20px;
-    }
-}
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width: 1180px) {
     .navbar{
        display: none; 
     }
