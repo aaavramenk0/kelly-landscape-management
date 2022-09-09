@@ -12,6 +12,22 @@
 </head>
 <body>
     <header>
+        <!-- Top Navigation Menu -->
+        <div class="topnav-small-screens">
+            <a href="index.html" class="active"><img src="img/logo.svg" alt="logo" class="logo-small-screens"></a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="lawn-care.html" class="menu-item">Lawn care</a>
+                <a href="maintenance.html" class="menu-item">Maintenance</a>
+                <a href="irrigation.html" class="menu-item">Irrigation</a>
+                <a href="landscaping.html" class="menu-item">Landscaping</a>
+                <a href="properly-sweeping.html" class="menu-item">Properly Sweeping</a>
+                <a href="aboutus.html" class="menu-item">About us</a>
+                <a href="careers.html" class="menu-item">Careers</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon"  to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon-small-screens" onclick="Function()"><img src="img/menu.png" alt="" class="menu_btn"></a>
+        </div>
         <!-- Navigation bar: { logo , nav.bar items , button } -->
         <div class="navbar topnav" id="myTopnav">
             <a href="index.html"><img src="img/logo.svg" alt="logo" class="logo"></a>
@@ -136,6 +152,7 @@
     </footer>
 
     <script src="js/dropdown.js"></script>
+    <script src="js/topnav.js"></script>
     <script src="js/landscaping-photos.js"></script>
 </body>
 </html>

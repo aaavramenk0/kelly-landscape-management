@@ -307,7 +307,7 @@ footer{
 }
   
 /* Style the hamburger menu */
-.topnav-small-screens a.icon {
+.topnav-small-screens a.icon-small-screens {
     display: block;
     position: absolute;
     right: 0;
@@ -357,4 +357,14 @@ footer{
     .main-screen-subtext, .main-screen-text{
         margin: 10px 10px;
     }
+    .icon-small-screens{
+        margin-top: 37px;
+        margin-right: 50px;
+    }
+    .logo-small-screens{
+        width: 75px;
+        height: 75px;
+        margin-top: 20px;
+        margin-left: 20px;
+    } 
 }
