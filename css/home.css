@@ -27,10 +27,11 @@ body{
 
 .background-video {
     position: fixed;
+    overflow: hidden;
     right: 0;
     bottom: 0;
     min-width: 100%;
-    min-height: 100%;
+    min-height: 1080px;
     z-index: -100;
 }
 
@@ -174,8 +175,7 @@ body{
 }
 .testimonials{
     background: #fff;
-    height: 500px;
-    padding-top: 35px;
+    padding: 35px 0;
 }
 .testimonials-heading{
     font-family: var(--times-new-roman-font);
@@ -259,9 +259,39 @@ q {
     font-size: 22px;
 }
 
-/*
-    Testimonial sliders 
-*/
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: hsla(298, 68%, 90%, 1);
+    background: linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+    padding-right: 100px;
+}
+
+.faq{
+    padding-left: 50px;
+    padding-right: 150px;
+}
+.faq-heading{
+    color: var(--main-red-color);
+    font-family: var(--montserrat-font);
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.faq-text{
+    font-size: 24px;
+    font-family: var(--montserrat-font);
+    margin-bottom: 35px;
+}
+.faq-btn{
+    padding: 10px 25px;
+}
+
+.faq-answers{
+    background: hsla(298, 68%, 90%, 1);
+    background: linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+}
 
 footer{
     padding: 17px;
