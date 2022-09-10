@@ -375,6 +375,9 @@ footer{
         margin-top: 20px;
         margin-left: 20px;
     } 
+    .faq-icon{
+        width: 35%;
+    }
 }
 
 @media screen and (max-width: 1180px) {
@@ -397,4 +400,23 @@ footer{
         margin-top: 20px;
         margin-left: 20px;
     } 
+    .faq-heading{
+        font-size: 32px;
+    }
+    .faq-text{
+        font-size: 18px;
+    }
+    .faq-btn{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .faq-heading{
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .faq-text{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
 }
